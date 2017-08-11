@@ -1,6 +1,19 @@
 $(document).ready(function(){
-$('h1').click(function(){
-	console.log('clicked');
+$('.gallery-item').hover(function(){
+	
+	$(this).css('opacity', '0.3')},
+
+	function(){
+	$(this).css('opacity', '1')
+
+	});
+
+$('nav li').hover(function(){
+	
+	$(this).css('opacity', '1')},
+
+	function(){
+	$(this).css('opacity', '0.7')
 
 	});
 });

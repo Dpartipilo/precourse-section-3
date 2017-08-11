@@ -1,3 +1,113 @@
-h1{
-color: red;
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+body{
+
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa84aHBUttognYCll50MhC6FQiU3vzMOxqiH7A1DeeZUwS7WVh'); 
+ background-position: center top;
+ background-size: cover;
+ margin:0;
+
+}
+
+.page-title{
+
+  font-family: Northwood-High, sans-serif;
+  font-size: 7em;
+  text-align: center;
+  font-weight: 200;
+  color: White;
+}
+
+.page-description{
+ 
+  text-align: center;
+  padding: 5px;
+  background-color: #D0D3D4;
+  
+  opacity: 0.6;
+}
+
+div.page-description p {
+font-size: 20px;
+margin:2%;
+font-family: Times;
+font-weight: normal;
+color:#000000;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4em;
+}
+
+img {
+
+object-fit: contain;
+height: 100%;
+width: 100%;
+opacity: 1.0;
+}
+
+.gallery-item{
+  
+  margin: 30px; 
+  border-bottom: 10px;
+  max-height:25em; 
+  max-width:25em;
+}
+
+.nav{
+
+	font-size: 25px;
+	font-family: Times;
+}
+
+
+nav{
+  background-color: #FFF;
+
+
+}
+
+nav li{
+  font-size: 25px;
+  margin: 5px;
+  padding: 0 10px;
+  display: inline;
+  opacity: 0.5;
+}
+
+nav ul{
+ display: inline;
+
+}
+
+.contact-btn{
+  float: right;
+}
+
+.contact-btn a {
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid gray;
+}
+
+.contact-btn a:active {
+	position: relative;
+	top: 2px;
+}
+
+nav a{
+	height: 60px;
+	line-height: 60px;
+	color: #204156;
+	text-decoration: none;
 }
